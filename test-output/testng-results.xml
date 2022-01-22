@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[ @@@@loginChrome######]]>
+    </line>
+    <line>
+      <![CDATA[ @@@@loginFirefox######]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="19824" started-at="2022-01-18T16:39:24 IST" finished-at="2022-01-18T16:39:43 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="19824" started-at="2022-01-18T16:39:24 IST" finished-at="2022-01-18T16:39:43 IST">
+      <class name="scripts.DragAndDrop">
+        <test-method status="PASS" signature="verifyDragAndDrop()[pri:0, instance:scripts.DragAndDrop@458c1321]" name="verifyDragAndDrop" duration-ms="9569" started-at="2022-01-18T16:39:34 IST" finished-at="2022-01-18T16:39:43 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[ @@@@loginFirefox######]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyDragAndDrop -->
+      </class> <!-- scripts.DragAndDrop -->
+      <class name="scripts.FrameTest">
+        <test-method status="PASS" signature="f()[pri:0, instance:scripts.FrameTest@305fd85d]" name="f" duration-ms="10140" started-at="2022-01-18T16:39:24 IST" finished-at="2022-01-18T16:39:34 IST">
+          <reporter-output>
+            <line>
+              <![CDATA[ @@@@loginChrome######]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- scripts.FrameTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
